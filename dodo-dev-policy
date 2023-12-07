@@ -1,0 +1,30 @@
+```
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "codebuild:CreateProject",
+                "codebuild:BatchGetProjects",
+                "codebuild:UpdateProject",
+                "codebuild:DeleteProject",
+                "codecommit:CreateRepository",
+                "codecommit:GetRepository",
+                "codecommit:UpdateRepositoryDescription",
+                "codecommit:DeleteRepository",
+                "codepipeline:CreatePipeline",
+                "codepipeline:GetPipeline",
+                "codepipeline:UpdatePipeline",
+                "codepipeline:DeletePipeline",
+                "codedeploy:CreateApplication",
+                "codedeploy:GetApplication",
+                "codedeploy:UpdateApplication",
+                "codedeploy:DeleteApplication",
+                "ec2:DescribeInstances"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
+```
