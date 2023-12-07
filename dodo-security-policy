@@ -1,0 +1,27 @@
+```
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "config:PutConfigRule",
+                "config:DescribeConfigRules",
+                "config:DescribeConfigurationRecorders",
+                "waf:CreateWebACL",
+                "waf:GetWebACL",
+                "waf:UpdateWebACL",
+                "acm:DescribeCertificate",
+                "kms:DescribeKey",
+                "guardduty:ListDetectors",
+                "inspector:ListAssessmentTargets",
+                "inspector:DeleteAssessmentTemplate",
+                "ec2:DescribeInstances",
+                "s3:ListBucket",
+                "rds:DescribeDBInstances"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
+```
