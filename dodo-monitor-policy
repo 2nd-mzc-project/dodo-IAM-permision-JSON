@@ -1,0 +1,34 @@
+```
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "cloudtrail:DescribeTrails",
+                "s3:GetObject",
+                "s3:ListAllMyBuckets",
+                "lambda:ListFunctions",
+                "events:RemoveTargets",
+                "events:ListRules",
+                "events:ListTargetsByRule",
+                "events:DeleteRule",
+                "sns:ListTopics",
+                "sns:GetTopicAttributes",
+                "chatbot:DescribeSlackChannelConfigurations",
+                "cloudwatch:ListDashboards",
+                "cloudwatch:ListMetrics",
+                "cloudwatch:DescribeAlarms",
+                "sns:ListPlatformApplications",
+                "lambda:GetAccountSettings",
+                "chatbot:ListMicrosoftTeamsConfiguredTeams",
+                "chatbot:DescribeSlackWorkspaces",
+                "chatbot:DescribeSlackUserIdentities"
+            ],
+            "Resource": [
+                "*"
+            ]
+        }
+    ]
+}
+```
